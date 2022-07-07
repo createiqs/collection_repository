@@ -8,6 +8,10 @@ public class Employee  {
 	public Employee() {
 		// TODO Auto-generated constructor stub
 	}
+	
+	public Employee(double salary) {
+		this.salary = salary;
+	}
 
 	public Employee(int id, String name, double salary) {
 		super();
@@ -15,6 +19,8 @@ public class Employee  {
 		this.name = name;
 		this.salary = salary;
 	}
+	
+	
 
 	public int getId() {
 		return id;
