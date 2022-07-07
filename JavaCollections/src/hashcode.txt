@@ -1,0 +1,5 @@
+A good hashcode() should return a distinct integer for each object,
+but you can't guranty that the hashcode method given integer can't repeat
+for other object. two different objects can also have same  hashcode.
+if two objects are same hashcode you can't guranty that the objects are equal.
+
